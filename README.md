@@ -75,7 +75,7 @@ jvm_memory_bytes_committed{area="nonheap",} 2.0217856E8
 A variety of JVM metrics are provided
 
 ### Generic events
-Every single internal Keycloak event is being shared through the endpoint, with the descriptions `Generic Keycloak User event` or `Generic Keycloak Admin event`. Most of these events are not likely useful for the majority users but are provided for good measure. A complete list of the events can be found at [Keycloak documentation](http://www.keycloak.org/docs-api/3.2/javadocs/org/keycloak/events/EventType.html).
+Every single internal Keycloak event is being shared through the endpoint, with the descriptions `Generic Keycloak User event` or `Generic Keycloak Admin event`. Most of these events are not likely useful for the majority users but are provided for good measure. A complete list of the events can be found at [Keycloak documentation](https://www.keycloak.org/docs-api/4.8/javadocs/org/keycloak/events/EventType.html).
 
 ### Featured events
 There are however a few events that are particularly more useful from a mobile app perspective. These events have been overriden by the SPI and are described more thoroughly below.
